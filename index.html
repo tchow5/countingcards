@@ -2,6 +2,7 @@
 	<HTML>
 		<head>
 	        <link rel="stylesheet" type="text/css" href="card.css">
+	        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	        <script src="card.js"></script>
 			
 		</head>
@@ -12,11 +13,23 @@
 				<div id = "enterbody">
 					
 					<p> This is a counting card simulator. I was inspiried to make this after watching the movie 21 (which is totally awesome) </p> 
-					<p> to successfully count cards you must understand that counting cards does not automatically make you rich instead, counting cards improves the chances of winning or having 21(blackjack)</p>
+					<p> To successfully count cards you must understand that counting cards does not automatically make you rich instead, counting cards improves the chances of winning or having 21(blackjack)</p>
+					<p> click the button below to continue with the simulation </p>
+					
+					 <input style="" type="submit" class="button" >
 
 				</div>
+				<div id = "instructions">
+
+						<p> Basic card counting with 1 deck of cards deals with values that are positive, negative, or neutral. Whenever a face card is dealt (i.e Jack, Queen, King, Ace) it subtracts one from the count. When a card, that is between 7-9 is dealt it does not change the value of the the count. Any number between 2-6 it will add to the current count</p> 
 
 
+				</div>
+				<div id = "cards">
+
+					<img src="cardpngs/1.png" id="one"/>
+
+				</div>
 
 				</div>
 
