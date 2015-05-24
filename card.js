@@ -20,9 +20,18 @@ $(document).ready(function(){
     $(".button").click(function(){
         $("#instructions").show();
     });
+    $(".button1").click(function(){
+    	$("#instructions").hide();
+    });
+
+
 });
 
+function Timeout(){
 
+
+
+}
 
 
 
