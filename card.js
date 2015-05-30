@@ -22,18 +22,16 @@ $(document).ready(function(){
     $('#cards').hide();
     $(".button").click(function(){
         $("#enterbody").hide();
-    });
-    $(".button").click(function(){
         $("#instructions").show();
     });
     $(".button1").click(function(){
     	$("#instructions").hide();
     	$('#cards').show();
-   	$(".button2").click(function(){
+   	  
+    $(".button1").click(function(){
         $('#cardtext').hide();
     });
    	 });
-
 
 });
 
